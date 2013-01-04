@@ -79,7 +79,13 @@ function doo (numArray, oppsArray) {
 	}
 }
 
-function power (x, y) { //used by doo above
+function power (x, y) { //used by doo above, assumes integer x, y >= 0
+	if (y === 0) {
+		return 1; // anything to the 0 power is 1
+	}
+	if (x === 0) {
+		return 0; // 0 to any power is 0
+	}
 	var result = x;
 	for (var i = y-1; i > 0; i--) {
 		result = result * x;
