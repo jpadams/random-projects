@@ -3,7 +3,7 @@ random-projects
  This function was created to solve a problem  posed to 5th graders at 
  my daughter's elementary school. 
  The problem is: given the numbers 1_2_3_4_5_6_7_8_9 and the operators {+, -, *, /},
- can some combination of of operators be put where the underscores are such that the 
+ can some combination of operators be put where the underscores are such that the 
  after calculating in accordance with standard operator precedence rules (P.E.M.D.A.S)
  the result is exactly 100?
 
