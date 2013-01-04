@@ -88,8 +88,13 @@ function power (x, y) { //used by doo above
 }
 
 
-//MAIN
+// MAIN
+// Here's the original problem
 doo([1,2,3,4,5,6,7,8,9], ['+','-','*','/']);
+
+// Here are some examples to explore
+// doo([1,2,3,4,5,6,7,8,9], ['+', '*']);
+// doo([2,4,6,8,10,12,14,16,18,20], ["*","/","+","-"]);
 
 
 
