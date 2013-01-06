@@ -1,5 +1,3 @@
-#!/usr/bin/js
-
 //I'm using Rhino for my js interpreter executable
 
 
