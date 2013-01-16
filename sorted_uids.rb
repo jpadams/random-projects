@@ -3,6 +3,10 @@
 # cut -d ':' -f  3 /etc/passwd | sort -n > foo.out
 #
 # but couldn't quite think of that during interview :)
+#
+# another one-liner
+# cat /etc/passwd | ruby -e 'STDIN.each { |line| puts line.chomp.split(":")[2] }' | sort -n > foo.out
+
  
 pw = File.open("/etc/passwd")
 uid = []
